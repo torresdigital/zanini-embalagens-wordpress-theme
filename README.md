@@ -1,2 +1,2 @@
-# zanini-embalagens-wordpress-theme
+# Zanini Embalagens Wordpress Theme
 Zanini Embalagens Wordpress Theme
