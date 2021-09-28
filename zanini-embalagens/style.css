@@ -125,6 +125,18 @@ html .summary.entry-summary p.price bdi {
     color: #039313;
     font-size: 22px;
 }
+html .store-mart-lite-feat-prod-cat-wrap .woocommerce ul.products.columns-4 li.product {box-shadow: 0 0 4px rgba(0,0,0,.1); min-height: 350px;}
+
+html .sml-product-title-wrapp, html .woocommerce ul.products li.product .woocommerce-placeholder {
+    border: none;
+}
+
+
+
+
+
+
+
 
 /*Footer*/
 html .sml-scrollup span::before,
