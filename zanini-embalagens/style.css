@@ -57,10 +57,7 @@ html .sm_search_form button#searchsubmit {
     font-size: 14px;
     font-weight: 600;
 }
-.sm_search_wrap select {
-    font-weight: 600;
-    font-size: 12px;
-}
+.sm_search_wrap select {  font-weight: 600; font-size: 12px;}
 
 
 
@@ -86,6 +83,7 @@ html .sm_search_form button#searchsubmit {
     position: relative;
     display: contents;
 }
+.cta-subtitle { text-shadow: 1px 1px 5px #515151;}
 
 /*Blog*/
 
@@ -118,10 +116,7 @@ html .quantity input.input-text{
 }
 .sml-single-cart-wrapp a.add_to_wishlist::before,
 .sml-single-cart-wrapp a.link-wishlist::before,
-.sml-single-cart-wrapp .compare-wrap a::before {
-    border-radius: 30px;
-
-}
+.sml-single-cart-wrapp .compare-wrap a::before {  border-radius: 30px;}
 html .sml-single-cart-wrapp a.add_to_wishlist:hover::before,
 html .sml-single-cart-wrapp a.link-wishlist:hover::before,
 html .sml-single-cart-wrapp .compare-wrap a:hover::before {
@@ -132,10 +127,7 @@ html .sml-single-cart-wrapp .compare-wrap a:hover::before {
     border: 1px solid #f4f4f4;
 }
 
-html .woocommerce span.onsale::after {
-    top: 0.5px;
-    left: -14px;
-}
+html .woocommerce span.onsale::after { top: 0.5px; left: -14px;}
 html .woocommerce span.onsale {
     font-size: 15px;
     font-weight: 600;
@@ -162,11 +154,7 @@ html .button.product_type_simple.add_to_cart_button.ajax_add_to_cart { color: #f
 .woocommerce-LoopProduct-link.woocommerce-loop-product__link:hover {color: red}
 .woocommerce-LoopProduct-link.woocommerce-loop-product__link { font-weight: 600; font-size: 16px;}
 
-.sml-latest-prod-add-to-cart:hover {
-    width: 100%;
-    height: 30px;
-    text-align: center;
-}
+.sml-latest-prod-add-to-cart:hover { width: 100%; height: 30px; text-align: center;}
 html .woocommerce ul.products li.product .button,
 .plx_lat_prod_cat_section .sml-latest-prod-add-to-cart {
     margin-top: inherit;
@@ -206,14 +194,14 @@ html button.btn-transparent-toggle.sml-cat-text-wrap {
 .plx_lat_prod_cat_section a.button.ajax_add_to_cart::before, 
 .plx_lat_prod_cat_section a.button.add_to_cart_button::before { display: none;}
 
-
+.sml-add-to-wishlist-wrap .add-to-wishlist-custom, 
+.sml-add-to-wishlist-wrap .compare-wrap, 
+.sml-add-to-wishlist-wrap .sml-quick-view-wrapp { width: 20%; }
 
 
 /*Footer*/
 html .sml-scrollup span::before,
-.sml-scrollup span::after {
-    border-radius: 30px;
-}
+.sml-scrollup span::after {  border-radius: 30px; }
 
 
 /*BootStrap*/
