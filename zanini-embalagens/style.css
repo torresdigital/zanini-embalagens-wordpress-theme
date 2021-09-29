@@ -42,6 +42,24 @@ html .sm_search_form button#searchsubmit {
     border: 4px solid #f4f4f4;
     top: 0px;
 }
+/*busca na home*/
+.sm_search_wrap {
+    width: 100%;
+    position: relative;
+    font-weight: 600;
+}
+#s {
+    padding-left: 12px;
+    padding-right: 0;
+    width: auto;
+    max-width: 62%;
+    font-size: 14px;
+    font-weight: 600;
+}
+.sm_search_wrap select {
+    font-weight: 600;
+    font-size: 12px;
+}
 
 
 
@@ -49,6 +67,9 @@ html .sm_search_form button#searchsubmit {
 /*Logo*/
 
 /*Menu*/
+.menu-item.menu-item-type-post_type a {
+    text-transform: initial;
+}
 
 /*Home*/
 .plx_cta_section .container {
