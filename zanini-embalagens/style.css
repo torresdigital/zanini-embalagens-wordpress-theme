@@ -31,6 +31,7 @@ html .breadcrumb-title h1.page-title {
     font-family: 'Open Sans', sans-serif;}
 
 /*Head*/
+#masthead {margin-bottom: 20px;}
 .store-mart-lite-logos form .search-wrap {
     border-radius: 30px;
 }
@@ -171,12 +172,21 @@ html .woocommerce ul.products li.product .button,
     margin-top: inherit;
     background: red;
     color: #fff;
-    height: 20px;
+    height: 27px;
     width: 100%;
     border-radius: 30px;
     text-align: center;
 }
-
+html button.btn-transparent-toggle.sml-cat-text-wrap {
+    font-size: 16px;
+    font-weight: 600;
+}
+.lnr.lnr-menu {
+    font-size: 17px;
+    font-weight: 600;
+    position: relative;
+    top: 2px;
+}
 
 .plx_lat_prod_cat_section .product-price {
     position: relative;
