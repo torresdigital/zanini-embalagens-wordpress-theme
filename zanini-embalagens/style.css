@@ -136,7 +136,13 @@ html .woocommerce span.onsale {
 }
 
 html .summary.entry-summary p.price bdi { color: #039313; font-size: 22px;}
-html .store-mart-lite-feat-prod-cat-wrap .woocommerce ul.products.columns-4 li.product {box-shadow: 0 0 4px rgba(0,0,0,.1); min-height: 350px;}
+html .store-mart-lite-feat-prod-cat-wrap .woocommerce ul.products.columns-4 li.product {
+    box-shadow: 0 0 4px rgba(0,0,0,.1);
+    min-height: 350px;
+    margin: 0 auto;
+    position: relative;
+    max-width: 23%;
+}
 html .sml-product-title-wrapp, html .woocommerce ul.products li.product .woocommerce-placeholder { border: none; }
 .sml-add-to-cart-wrap {
     background: red;
@@ -194,9 +200,26 @@ html button.btn-transparent-toggle.sml-cat-text-wrap {
 .plx_lat_prod_cat_section a.button.ajax_add_to_cart::before, 
 .plx_lat_prod_cat_section a.button.add_to_cart_button::before { display: none;}
 
-.sml-add-to-wishlist-wrap .add-to-wishlist-custom, 
-.sml-add-to-wishlist-wrap .compare-wrap, 
-.sml-add-to-wishlist-wrap .sml-quick-view-wrapp { width: 20%; }
+/*.sml-add-to-wishlist-wrap .add-to-wishlist-custom,
+.sml-add-to-wishlist-wrap .compare-wrap,
+.sml-add-to-wishlist-wrap .sml-quick-view-wrapp { width: 20%; }*/
+
+.sml-add-to-wishlist-wrap {
+    width: 100%;
+    max-width: 25%;
+    right: -6px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.add_to_wishlist.link-wishlist span { text-align: center;}
+.woocommerce .checkout_coupon button[type="submit"], 
+.woocommerce .woocommerce-cart-form .cart .coupon button[type="submit"] {
+    background: red;
+    font-weight: 600;
+    border-radius: 30px;
+}
 
 
 /*Footer*/
