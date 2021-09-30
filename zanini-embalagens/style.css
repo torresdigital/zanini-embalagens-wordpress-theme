@@ -202,10 +202,6 @@ html button.btn-transparent-toggle.sml-cat-text-wrap {
 .plx_lat_prod_cat_section a.button.ajax_add_to_cart::before, 
 .plx_lat_prod_cat_section a.button.add_to_cart_button::before { display: none;}
 
-/*.sml-add-to-wishlist-wrap .add-to-wishlist-custom,
-.sml-add-to-wishlist-wrap .compare-wrap,
-.sml-add-to-wishlist-wrap .sml-quick-view-wrapp { width: 20%; }*/
-
 .sml-add-to-wishlist-wrap {
     width: 100%;
     max-width: 25%;
@@ -232,6 +228,40 @@ html button.btn-transparent-toggle.sml-cat-text-wrap {
     border: 2px solid #f4f4f4;
     line-height: 39px;
 }
+html .button.wc-forward {
+    font-size: 14px;
+    position: relative;
+    font-weight: 600;
+    border-radius: 30px;
+    margin: 0 12px;
+    display: block;
+    float: none;
+    bottom: 4px;
+    background: red;
+}
+.woocommerce-message {
+    border-top-color: red;
+    border-radius: 3px;
+    font-weight: 600;
+    width: 100%;
+}
+.woocommerce button.button {
+    background: red;
+    border-radius: 30px;
+}
+.woocommerce button.button:disabled, .woocommerce button.button:disabled[disabled] {
+    font-weight: 400;
+    color: #fff;
+}
+
+html p.buttons a.checkout.wc-forward { background: red; border-radius: 30px }
+p.buttons a.checkout.wc-forward:hover { background: green; }
+html p.buttons a.wc-forward {border-radius: 30px}
+html .menu-primary-menu-container a:focus { color: green;}
+
+html .woocommerce-info::before, html .woocommerce-info::before {  color: green;}
+
+.page-template-default.page.page-id-10 a { font-weight: 600; font-size: 12.5px;}
 
 /*Footer*/
 html .sml-scrollup span::before,
