@@ -263,6 +263,16 @@ html .woocommerce-info::before, html .woocommerce-info::before {  color: green;}
 
 .page-template-default.page.page-id-10 a { font-weight: 600; font-size: 12.5px;}
 
+.woocommerce form .form-row input.input-text,
+html .select2-container--default .select2-selection--single .select2-selection__rendered,
+html #select2-billing_state-container,html #select2-billing_country-container{
+    border-radius: 30px;
+    font-weight: 600;
+}
+.woocommerce span.onsale::after, .woocommerce span.onsale::before {
+    border-left-color: red;
+}
+
 /*Footer*/
 html .sml-scrollup span::before,
 .sml-scrollup span::after {  border-radius: 30px; }
