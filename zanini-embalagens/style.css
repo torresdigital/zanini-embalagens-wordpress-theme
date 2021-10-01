@@ -28,7 +28,10 @@ html .breadcrumb-title h1.page-title {
     color: #fff;
     text-shadow: 1px 1px 2px #717070;
     font-weight: 900;
-    font-family: 'Open Sans', sans-serif;}
+    font-family: 'Open Sans', sans-serif;
+}
+
+html .banner-slider::after {background-color: transparent}
 
 /*Head*/
 #masthead {margin-bottom: 20px;}
@@ -144,7 +147,46 @@ html .store-mart-lite-feat-prod-cat-wrap .woocommerce ul.products.columns-4 li.p
     margin: 0 auto;
     position: relative;
     max-width: 23%;
+    border-radius: 3px;
 }
+html .plx_prod_tab_cat_section .woocommerce ul.products.columns-4 li.product {
+    box-shadow: 0 0 4px rgba(0,0,0,.1); 
+    border-radius: 3px; 
+    max-width: 23%;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 3px;
+}
+/*hover produtos*/
+html .store-mart-lite-feat-prod-cat-wrap .woocommerce ul.products.columns-4 li.product:hover {
+    z-index: 2;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    -webkit-box-shadow: 0 2px 15px 0 rgba(0,0,0,.15);
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,.15);
+    transition: 150ms linear;
+    border-radius: 4px;
+
+}
+html .plx_prod_tab_cat_section .woocommerce ul.products.columns-4 li.product:hover {
+    z-index: 2;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    -webkit-box-shadow: 0 2px 15px 0 rgba(0,0,0,.15);
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,.15);
+    transition: 150ms linear;
+    border-radius: 4px;
+}
+/*hover produtos -- fim*/
+
+
+.woocommerce-product-details__short-description {
+    font-weight: 600;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #9f9f9f33;
+}
+
+a.slider-button {border-radius: 30px; padding: 3px 30px}
 html .sml-product-title-wrapp, 
 html .woocommerce ul.products li.product .woocommerce-placeholder { border: none; }
 .sml-add-to-cart-wrap {
