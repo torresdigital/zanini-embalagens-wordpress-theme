@@ -324,6 +324,11 @@ html #select2-billing_state-container,html #select2-billing_country-container{
     border: 4px solid #f4f4f4;
     border-radius: 3px;
 }
+.sml-lat-prod-detail-wrap .lat-prod-cat-info h2.prod-title {
+    line-height: 11px;
+    margin: 11px auto;
+    font-weight: 600;
+}
 /*Footer*/
 html .sml-scrollup span::before,
 .sml-scrollup span::after {  border-radius: 30px; }
