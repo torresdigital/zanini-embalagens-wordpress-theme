@@ -187,8 +187,10 @@ html .plx_prod_tab_cat_section .woocommerce ul.products.columns-4 li.product:hov
 }
 
 a.slider-button {border-radius: 30px; padding: 3px 30px}
-html .caption-content {font-size: 25px;; text-shadow: 2px 2px 3px #847777}
+html .caption-content {font-size: 25px;text-shadow: 2px 2px 3px #847777}
 h2.caption-title span { color: #1c1818;}
+html a.slider-button:hover { background-color: green; border: 3px solid #f4f4f4; color: #fff;}
+html a.slider-button:focus {  color: #fff; background-color: green;}
 
 html .sml-product-title-wrapp, 
 html .woocommerce ul.products li.product .woocommerce-placeholder { border: none; }
