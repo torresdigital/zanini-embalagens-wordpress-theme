@@ -86,7 +86,10 @@ html .sm_search_form button#searchsubmit {
     position: relative;
     display: contents;
 }
-.cta-subtitle { text-shadow: 1px 1px 5px #515151;}
+htlm .cta-subtitle { text-shadow: 1px 1px 5px #515151;}
+htlm .store-mart-lite-cat-prod-content { top: 24%;}
+htlm .store-mart-lite-cat-prod-description { font-size: 26px;}
+htlm .store-mart-lite-cat-prod-btn { top: 231px; position: relative;}
 
 /*Blog*/
 
@@ -179,12 +182,6 @@ html .plx_prod_tab_cat_section .woocommerce ul.products.columns-4 li.product:hov
 }
 /*hover produtos -- fim*/
 
-
-.woocommerce-product-details__short-description {
-    font-weight: 600;
-    font-size: 20px;
-    text-shadow: 1px 1px 1px #9f9f9f33;
-}
 
 a.slider-button {border-radius: 30px; padding: 3px 30px}
 html .caption-content {font-size: 25px;text-shadow: 2px 2px 3px #847777}
@@ -888,7 +885,7 @@ like a charm in your responsive design!
 
 
 
-/* 1.0 Normalize Styles based on Normalize v5.0.0 @link https: //github.com/necolas/normalize.css
+/* - 1.0 Normalize Styles based on Normalize v5.0.0 @link https: //github.com/necolas/normalize.css
 @import url('https://www.fontify.me/wf/d1e0123011c04b12846e626981f6fdd4');
 
 @import url('https://fonts.googleapis.com/css?family=Poppins');
