@@ -7,7 +7,7 @@ Author: Torres Digital | Sites → Lojas Virtuais e e-Commerce
 Author URI: https://www.torresdigital.com.br/
 Description: Somos uma Agência Gaúcha que trabalha com Desenvolvimento Web voltado para o Mercado do e-Commerce: Sites, Aplicativos, Lojas Virtuais, Marketplaces, WordPress e Woocommerce, integrados com os Principais Cartões e Soluções de Pagamentos do Brasil e do Mundo; tais como Cielo, CyberSource, PagSeguro, Stripe, Vindi, MasterCard, Visa, American Express, etc. A Torres Digital também conta com uma Equipe Forte, com um Know-how amplo e moderno para trabalhos com Publicidade e Propaganda. – Menos é mais
 Tags: right-sidebar,left-sidebar,custom-menu,featured-images,threaded-comments,translation-ready,custom-logo,blog,theme-options,editor-style,e-commerce
-Version: 2.0.1632822169
+Version: 1.0.1632822169
 Updated: 2021-09-28 06:42:49
 
 */
@@ -87,9 +87,11 @@ html .sm_search_form button#searchsubmit {
     display: contents;
 }
 htlm .cta-subtitle { text-shadow: 1px 1px 5px #515151;}
-htlm .store-mart-lite-cat-prod-content { top: 24%;}
-htlm .store-mart-lite-cat-prod-description { font-size: 26px;}
-htlm .store-mart-lite-cat-prod-btn { top: 231px; position: relative;}
+#correcao .store-mart-lite-cat-prod-content { top: 24%;}
+#correcao .store-mart-lite-cat-prod-description { font-size: 26px;}
+#correcao .store-mart-lite-cat-prod-btn { top: 231px; position: relative;}
+
+
 
 /*Blog*/
 
@@ -169,6 +171,7 @@ html .store-mart-lite-feat-prod-cat-wrap .woocommerce ul.products.columns-4 li.p
     box-shadow: 0 2px 15px 0 rgba(0,0,0,.15);
     transition: 150ms linear;
     border-radius: 4px;
+    border-top: 2px solid #6ccc30;
 
 }
 html .plx_prod_tab_cat_section .woocommerce ul.products.columns-4 li.product:hover {
