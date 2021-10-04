@@ -91,7 +91,7 @@ htlm .cta-subtitle { text-shadow: 1px 1px 5px #515151;}
 #correcao .store-mart-lite-cat-prod-description { font-size: 26px;}
 #correcao .store-mart-lite-cat-prod-btn { top: 231px; position: relative;}
 
-
+.banner-slider-info { top: 67%; left: 75%;}
 
 /*Blog*/
 
@@ -187,7 +187,7 @@ html .plx_prod_tab_cat_section .woocommerce ul.products.columns-4 li.product:hov
 
 
 a.slider-button {border-radius: 30px; padding: 3px 30px}
-html .caption-content {font-size: 25px;text-shadow: 2px 2px 3px #847777}
+html .caption-content {color:#333; font-size: 25px;text-shadow: 2px 2px 3px #847777; }
 h2.caption-title span { color: #1c1818;}
 html a.slider-button:hover { background-color: green; border: 3px solid #f4f4f4; color: #fff;}
 html a.slider-button:focus {  color: #fff; background-color: green;}
@@ -324,6 +324,25 @@ html #select2-billing_state-container,html #select2-billing_country-container{
     border: 4px solid #f4f4f4;
     border-radius: 3px;
 }
+
+html .products.columns-3 .prod-title {
+    line-height: 12px;
+    position: relative;
+    display: inline-block;
+}
+html .products.columns-3 .prod-title:hover {color: red}
+
+
+
+
+
+
+
+
+
+
+
+
 /*Footer*/
 html .sml-scrollup span::before,
 .sml-scrollup span::after {  border-radius: 30px; }
