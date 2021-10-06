@@ -92,6 +92,7 @@ htlm .cta-subtitle { text-shadow: 1px 1px 5px #515151;}
 #correcao .store-mart-lite-cat-prod-btn { top: 231px; position: relative;}
 
 .banner-slider-info { top: 67%; left: 75%;}
+.store-mart-lite-cta-content-wrap {text-shadow: 2px 1px 7px #484646;}
 
 /*Blog*/
 
@@ -330,7 +331,7 @@ html .products.columns-3 .prod-title {
     position: relative;
     display: inline-block;
 }
-html .products.columns-3 .prod-title:hover {color: red}
+html .sml-lat-prod-detail-wrap .lat-prod-cat-info h2.prod-title a:hover {color: red}
 
 
 
